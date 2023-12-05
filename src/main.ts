@@ -10,16 +10,16 @@ Amplify.configure(amplify);
 
 const oauth = {
   // Domain name
-  domain : 'ebuy-web.auth.us-east-1.amazoncognito.com', 
+  domain : 'cf-amplify.auth.us-east-1.amazoncognito.com', 
   
   // Authorized scopes
   scope : ['phone', 'email', 'profile', 'openid','aws.cognito.signin.user.admin'], 
 
   // Callback URL
-  redirectSignIn : 'http://localhost:4200', 
+  redirectSignIn : 'https://master.d2be2dd4ktk3gw.amplifyapp.com', 
   
   // Sign out URL
-  redirectSignOut : 'http://localhost:4200',
+  redirectSignOut : 'https://master.d2be2dd4ktk3gw.amplifyapp.com',
 
   // 'code' for Authorization code grant, 
   // 'token' for Implicit grant
