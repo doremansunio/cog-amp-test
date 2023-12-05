@@ -13,7 +13,7 @@ export class NavComponent implements OnInit {
   }
 
   onLoginClick() {
-    const URL = "https://ebuy-web.auth.us-east-1.amazoncognito.com/login?response_type=code&client_id=1nh2j7eflfk37c5u2cmu7melvn&redirect_uri=http://localhost:4200";
+    const URL = "https://cf-amplify.auth.us-east-1.amazoncognito.com/oauth2/authorize?client_id=7rbfge7ic1s47l8icu8jo3ht0f&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fmaster.d2be2dd4ktk3gw.amplifyapp.com%2F";
     window.location.assign(URL);
   }
 
